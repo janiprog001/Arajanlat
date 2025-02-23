@@ -146,6 +146,21 @@ tr:hover {
         margin: 5px 0;
     }
 
+    /* Táblázat gombok javítása mobilon */
+    td button {
+        width: auto !important;
+        padding: 8px 12px !important;
+        margin: 2px !important;
+        display: inline-block !important;
+    }
+
+    /* Táblázat utolsó oszlop (gombok) kezelése */
+    td:last-child {
+        white-space: nowrap;
+        text-align: right;
+        min-width: 120px;
+    }
+
     .container {
         padding: 15px;
     }
